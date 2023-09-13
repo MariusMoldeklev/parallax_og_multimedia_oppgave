@@ -1,0 +1,65 @@
+
+.parallax_img {
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.parallax_img1 {
+	height: 100vh;
+    background-image: url(castel_sant_angelo.jpg);
+}
+.parallax_img2 {
+    height: 600px;
+    background-image: url(colosseum.jpg);
+
+}
+.parallax_img3 {
+    height: 600px;
+    background-image: url(pantheon.jpg);
+}
+.parallax_img4 {
+    height: 600px;
+    background-image: url(forum_romanum.jpg);
+
+}
+.title {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.innhold {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(207, 207, 194);
+
+}
+.wiki_text {
+    max-width: 600px;
+}
+.advarsel {
+ color: red;
+
+}
+.video_text {
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+.video_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
